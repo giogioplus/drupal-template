@@ -1,0 +1,6 @@
+name: 'Mio Modulo'
+description: 'Mio primo modulo custom'
+type: module
+core_version_requirement: "^11"
+package: 'Corso Drupal'
+version: '1.0.0'
