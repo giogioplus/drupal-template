@@ -1,0 +1,7 @@
+miomodulo.miapagina:
+  path: '/miomodulo/mia-pagina'
+  defaults:
+    _controller: '\Drupal\miomodulo\Controller\MiomoduloController::miaPagina'
+    _title: 'Titolo Mia Pagina Custom'
+  requirements:
+    _permission: 'access content'
