@@ -114,8 +114,8 @@ class SwitchUserBlock extends BlockBase implements ContainerFactoryPluginInterfa
   /**
    * {@inheritdoc}
    */
-  public function build(): array {
-    $build = [];
+  public function build(){
+   
     if ($accounts = $this->switchUserListHelper->getUsers($this->configuration['list_size'], $this->configuration['include_anon'])) {
       $build['devel_links'] = $this->switchUserListHelper->buildUserList($accounts);
 
