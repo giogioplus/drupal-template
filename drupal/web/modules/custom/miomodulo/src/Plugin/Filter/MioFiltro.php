@@ -10,7 +10,8 @@ use Drupal\filter\FilterProcessResult;
  *   id = "mio_filtro_custom",
  *   title = @Translation("Mio filtro custom"),
  *   category = @Translation("Corso Drupal"),
- *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_IRREVERSIBLE,
+ *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_IRREVERSIBLE
+ * ,
  * )
  */
 
