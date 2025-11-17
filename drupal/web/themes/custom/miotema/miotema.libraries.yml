@@ -1,0 +1,8 @@
+global-style:
+  css:
+    theme:
+      css/style.css: {}
+
+global-scripts:
+  js:
+    js/script.js: {}

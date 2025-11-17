@@ -1,0 +1,10 @@
+<?php
+
+function miotema_preprocess_node(&$variables) : void {
+  dump('miotema_preprocess_node');
+  $account = \Drupal::currentUser();
+  $variables['is_anonymous']=$account->isAnonymous();
+  $variables['ciao']='ciao ciao';
+  dump('miotema_preprocess_node add variables');
+  dump($variables);
+}
